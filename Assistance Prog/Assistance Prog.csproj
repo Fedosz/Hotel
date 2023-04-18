@@ -10,12 +10,20 @@
 
   <ItemGroup>
     <None Remove="Images\home.png" />
+    <None Remove="Images\icons8-cocktail-48.png" />
+    <None Remove="Images\icons8-housekeeper-48.png" />
+    <None Remove="Images\icons8-manager-50.png" />
     <None Remove="Images\icons8-password-96.png" />
+    <None Remove="Images\icons8-reserve-48.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\home.png" />
+    <Resource Include="Images\icons8-cocktail-48.png" />
+    <Resource Include="Images\icons8-housekeeper-48.png" />
+    <Resource Include="Images\icons8-manager-50.png" />
     <Resource Include="Images\icons8-password-96.png" />
+    <Resource Include="Images\icons8-reserve-48.png" />
   </ItemGroup>
 
 </Project>

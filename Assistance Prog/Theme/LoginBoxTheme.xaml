@@ -20,7 +20,7 @@
                                      x:Name="LoginBox"/>
 
                             <TextBlock IsHitTestVisible="False"
-                                       Text="Login"
+                                       Text="Username"
                                        VerticalAlignment="Center"
                                        HorizontalAlignment="Left"
                                        Margin="10,0,0,0"
