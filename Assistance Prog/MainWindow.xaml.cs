@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assistance_Prog.MVVM.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace Assistance_Prog
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow AppWindow;
         public MainWindow()
         {
             InitializeComponent();

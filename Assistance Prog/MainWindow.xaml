@@ -148,8 +148,30 @@
                     Margin="490,0,0,0"
                     Background="#15E5EF"
                     Foreground="Black"
+                    x:Name="Login"
+                    Command="{Binding ClickLogin}"
                     />
 
+            <TextBlock Grid.Column="1"
+                       Text="Your id:"
+                       Width="70"
+                       Height="30"
+                       Margin="610,0,0,40"
+                       FontFamily="/Fonts/#Poppins"
+                       FontSize="15"
+                       Visibility="Hidden"
+                       x:Name="ID"/>
+
+
+
+            <Image Grid.Column="1"
+                    Source="/Images/admin.png"
+                    Width="50"
+                    Height="60"
+                    Margin="600,20,0,0"
+                    Visibility="Hidden"
+                   x:Name="imageJPG"
+                />
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
