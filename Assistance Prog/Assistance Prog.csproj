@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Assistance_Prog</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\home.png" />
+    <None Remove="Images\icons8-password-96.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\icons8-password-96.png" />
+  </ItemGroup>
+
+</Project>
