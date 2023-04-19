@@ -10,7 +10,8 @@
         WindowStyle="none"
         ResizeMode="NoResize"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True" WindowState="Minimized"
+        MouseDown="Window_MouseDown">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -96,7 +97,7 @@
 
             <StackPanel Grid.Row="1">
 
-                <RadioButton Content="Login"
+                <RadioButton Content="Home"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
