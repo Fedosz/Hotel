@@ -31,5 +31,6 @@ namespace Assistance_Prog
         {
             this.DragMove();
         }
+
     }
 }

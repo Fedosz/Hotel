@@ -1,33 +1,3 @@
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.exe
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.deps.json
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.runtimeconfig.json
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.dll
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.pdb
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.csproj.AssemblyReference.cache
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Theme\LoginBoxTheme.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Theme\PasswordBoxTheme.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\DiscoveryView.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog_MarkupCompile.cache
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog_MarkupCompile.lref
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\App.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\DiscoveryView.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.g.resources
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.AssemblyInfoInputs.cache
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.AssemblyInfo.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.csproj.CoreCompileInputs.cache
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.dll
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\refint\Assistance Prog.dll
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.pdb
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.genruntimeconfig.cache
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\Assistance Prog\Assistance Prog\obj\Debug\net6.0-windows\ref\Assistance Prog.dll
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.exe
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.deps.json
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\bin\Debug\net6.0-windows\Assistance Prog.runtimeconfig.json

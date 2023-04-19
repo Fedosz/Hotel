@@ -53,26 +53,98 @@ namespace Assistance_Prog.MVVM.ViewModel
             }
         }
 
+        private Visibility imageVisibility;
+        public Visibility ImageVisibility
+        {
+            get { return imageVisibility; }
+            set { imageVisibility = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string idText;
+        public string IDText
+        {
+            get { return idText; }
+            set { idText = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string source;
+        public string Source
+        {
+            get { return source; }
+            set { source = value;
+                OnPropertyChanged();
+            }
+        }
+
         public ICommand ClickLogin { get; set; }
+
+        public ICommand CloseApp { get; set; }
+        public ICommand MinimizeApp { get; set; }
 
         private void MainButtonClick()
         {
-            MessageBox.Show("Password = " + password + " Login = " + userName);
+            user = Logger.Login(UserName, Password);
+            Password = string.Empty;
+            UserName = string.Empty;
+            switch ((int)user.getPermission())
+            {
+                case 0:
+                    break;
+                case 1:
+                    ImageVisibility = Visibility.Visible;
+                    Source = "/Images/maid.png";
+                    IDText = "ID: " + user.getId();
+                    break;
+                case 2:
+                    ImageVisibility = Visibility.Visible;
+                    Source = "/Images/bar.png";
+                    IDText = "ID: " + user.getId();
+                    break;
+                case 3:
+                    ImageVisibility = Visibility.Visible;
+                    Source = "/Images/book.png";
+                    IDText = "ID: " + user.getId();
+                    break;
+                case 4:
+                    ImageVisibility = Visibility.Visible;
+                    Source = "/Images/admin.png";
+                    IDText = "ID: " + user.getId();
+                    break;
+            }
+        }
+        private void CloseAppClick()
+        {
+            App.Current.MainWindow.Close();
+        }
+        private void MinimizeAppClick()
+        {
+            App.Current.MainWindow.WindowState = WindowState.Minimized;
         }
 
 
         public MainViewModel() 
-        { 
+        {
+            ImageVisibility = Visibility.Collapsed;
+            IDText = string.Empty;
+            Source = "/Images/maid.png";
+
             user = new User();
             try
             {
-                //Logger.LoadData();
-            } catch (DirectoryNotFoundException ex) 
+                Logger.LoadData();
+            }
+            catch (DirectoryNotFoundException ex)
             {
                 MessageBox.Show(ex.Message);
             }
 
             ClickLogin = new RelayCommand(o => MainButtonClick());
+            CloseApp = new RelayCommand(o => CloseAppClick());
+            MinimizeApp = new RelayCommand(o => MinimizeAppClick());
 
             HomeVM = new HomeViewModel();
             DiscoveryVM = new DiscoveryViewModel();

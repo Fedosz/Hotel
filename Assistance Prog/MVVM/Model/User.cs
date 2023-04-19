@@ -38,5 +38,10 @@ namespace Assistance_Prog.MVVM.Model
         {
             return id;
         }
+
+        public Permission getPermission()
+        {
+            return permission;
+        }
     }
 }

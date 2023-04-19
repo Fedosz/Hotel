@@ -4,13 +4,14 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Media.TextFormatting;
 
 namespace Assistance_Prog.MVVM.Model
 {
     internal static class Logger
     {
-        static private readonly string rootFolder = @"//Data//staff.txt";
+        static private readonly string rootFolder = "/Data/staff.txt";
         static private List<Person> people = new List<Person>();
 
         private struct Person
@@ -45,13 +46,19 @@ namespace Assistance_Prog.MVVM.Model
             return user;
         }
 
+        static public void clearData()
+        {
+            people.Clear();
+        }
+
         static public void LoadData()
         {
             string[] lines;
+            Directory.SetCurrentDirectory(@"..\..\..\");
 
-            if (File.Exists(rootFolder))
+            if (File.Exists(Directory.GetCurrentDirectory() + rootFolder))
             {
-                lines = File.ReadAllLines(rootFolder);
+                lines = File.ReadAllLines(Directory.GetCurrentDirectory() + rootFolder);
             }
             else
             {
@@ -64,6 +71,7 @@ namespace Assistance_Prog.MVVM.Model
                 int id = int.Parse(data[2]);
                 int permission = int.Parse(data[3]);
                 Person person = new Person(data[0], data[1], permission, id);
+                people.Add(person);
             }
         }
     }

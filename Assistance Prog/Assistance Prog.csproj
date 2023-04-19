@@ -9,17 +9,37 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\Black.ttf" />
+    <None Remove="Fonts\Heebo-Black.ttf" />
+    <None Remove="Fonts\Poppins-Regular.ttf" />
+    <None Remove="Images\admin.png" />
+    <None Remove="Images\bar.png" />
+    <None Remove="Images\book.png" />
     <None Remove="Images\home.png" />
     <None Remove="Images\icons8-cocktail-48.png" />
     <None Remove="Images\icons8-housekeeper-48.png" />
     <None Remove="Images\icons8-manager-50.png" />
     <None Remove="Images\icons8-password-96.png" />
     <None Remove="Images\icons8-reserve-48.png" />
+    <None Remove="Images\maid.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Fonts\Black.ttf" />
+    <Resource Include="Fonts\Heebo-Black.ttf" />
+    <Resource Include="Fonts\Poppins-Regular.ttf" />
+    <Resource Include="Images\admin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\bar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\book.png" />
     <Resource Include="Images\home.png" />
     <Resource Include="Images\icons8-password-96.png" />
+    <Resource Include="Images\maid.png" />
   </ItemGroup>
 
 </Project>
