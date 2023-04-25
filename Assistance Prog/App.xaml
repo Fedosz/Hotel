@@ -11,6 +11,7 @@
                 <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
                 <ResourceDictionary Source="Theme/PasswordBoxTheme.xaml"/>
                 <ResourceDictionary Source="Theme/LoginBoxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/ComboBoxTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
@@ -20,7 +21,11 @@
             <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
                 <view:DiscoveryView/>
             </DataTemplate>
-            
+
+            <DataTemplate DataType="{x:Type viewModel:MaidViewModel}">
+                <view:MaidView/>
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

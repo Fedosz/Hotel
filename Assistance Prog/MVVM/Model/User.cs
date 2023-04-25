@@ -12,8 +12,8 @@ namespace Assistance_Prog.MVVM.Model
         None,
         HouseMaid,
         Bartender,
-        BookingManager,
-        Administrator
+        Administrator,
+        Manager
     }
     internal class User {
         public bool isLogged {get; set;}

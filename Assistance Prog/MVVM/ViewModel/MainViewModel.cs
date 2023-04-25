@@ -18,10 +18,12 @@ namespace Assistance_Prog.MVVM.ViewModel
     {
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand DiscoveryViewCommand { get; set; }
+        public RelayCommand MaidViewCommand { get; set; }
 
         public User user { get; set; }
         public HomeViewModel HomeVM { get; set; }
         public DiscoveryViewModel DiscoveryVM { get; set; }
+        public MaidViewModel MaidVM { get; set; }
 
         private object _currentView;
         public object CurrentView
@@ -81,7 +83,6 @@ namespace Assistance_Prog.MVVM.ViewModel
         }
 
         public ICommand ClickLogin { get; set; }
-
         public ICommand CloseApp { get; set; }
         public ICommand MinimizeApp { get; set; }
 
@@ -148,6 +149,7 @@ namespace Assistance_Prog.MVVM.ViewModel
 
             HomeVM = new HomeViewModel();
             DiscoveryVM = new DiscoveryViewModel();
+            MaidVM = new MaidViewModel();
 
             CurrentView = HomeVM;
 
@@ -159,6 +161,11 @@ namespace Assistance_Prog.MVVM.ViewModel
             DiscoveryViewCommand = new RelayCommand(o =>
             {
                 CurrentView = DiscoveryVM;
+            });
+
+            MaidViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = MaidVM;
             });
         }
     }

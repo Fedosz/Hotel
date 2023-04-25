@@ -14,7 +14,7 @@
         AllowsTransparency="True" WindowState="Minimized"
         MouseDown="Window_MouseDown"
         WindowStartupLocation="CenterScreen">
-        
+
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -186,7 +186,7 @@
     <Window.DataContext>
         <viewModel:MainViewModel/>
     </Window.DataContext>
-    
+
     <Border Background="#272537"
             CornerRadius="20">
         <Grid>
@@ -199,7 +199,7 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            
+
             <TextBlock Text="Your Hotel"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
@@ -218,20 +218,27 @@
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}">
                 </RadioButton>
-                             
-                
-                <RadioButton Content="Discovery"
+
+                <RadioButton Content="Maid menu"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding DiscoveryViewCommand}"/>
+                             Command="{Binding MaidViewCommand}"/>
 
-                <RadioButton Content="Feauted"
+                <RadioButton Content="Bartender menu"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command=""/>
+
+                <RadioButton Content="Administrator menu"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command=""/>
 
             </StackPanel>
 
@@ -291,10 +298,8 @@
                      Width="15"
                      Margin="625,0,0,45"
                     Command="{Binding MinimizeApp}">
-                
+
             </Button>
-
-
 
             <Image Grid.Column="1"
                     Source="{Binding Source}"
@@ -310,7 +315,6 @@
                             Margin="10"
                             Content="{Binding CurrentView}"/>
         </Grid>
-        
-       
+
     </Border>
 </Window>
