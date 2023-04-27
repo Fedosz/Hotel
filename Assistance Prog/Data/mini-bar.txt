@@ -1,0 +1,10 @@
+﻿Coca-Cola 0.33
+Jack Daniels 0.2
+J7 apple 0.33
+J7 orange 0.33
+Bacardi 0.25
+Sprite 0.33
+Fanta 0.33
+Nuts
+Snickers
+Mars

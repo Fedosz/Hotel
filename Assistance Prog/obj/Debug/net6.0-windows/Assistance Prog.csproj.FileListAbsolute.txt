@@ -30,4 +30,3 @@ C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assist
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\ref\Assistance Prog.dll
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\MaidView.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\MaidView.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Theme\ComboBoxTheme.baml

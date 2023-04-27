@@ -30,9 +30,6 @@
     <Page Update="MVVM\View\MaidView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Theme\ComboBoxTheme.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Theme\MenuButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
