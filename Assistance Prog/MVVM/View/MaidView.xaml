@@ -120,19 +120,152 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="RoundButton" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#0BA5AD"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#0BA5AD"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#46E9F1"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#46E9F1"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
     <Grid>
-        <StackPanel>
-            <ComboBox Style="{DynamicResource ComboBoxFlatStyle}" Width="100"
-                Height="25"
-                Margin="0,80,0,0"
-                ItemsSource="{Binding Rooms, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                SelectedItem="{Binding SelectedRoom}"/>
+        <StackPanel Orientation="Horizontal" Height="80" VerticalAlignment="Top"
+                    HorizontalAlignment="Left" Width="600"
+                    Margin="20,60,0,0">
+
+            <Border Background="#353340" Width="210" Height="25"
+                    CornerRadius="10" Margin="20,0,0,0">
+                <TextBlock Text="Choose room" HorizontalAlignment="Center"
+                           Foreground="DarkGray"
+                           VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
+            </Border>
+
             <ComboBox Style="{DynamicResource ComboBoxFlatStyle}" Width="150"
                 Height="25"
-                Margin="0,80,0,0"
+                Margin="50,0,0,0"
+                ItemsSource="{Binding Rooms, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                SelectedItem="{Binding SelectedRoom}"/>
+
+
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" Height="80" VerticalAlignment="Top"
+                    HorizontalAlignment="Left" Width="600"
+                    Margin="20,140,0,0">
+
+            <Border Background="#353340" Width="210" Height="25"
+                    CornerRadius="10" Margin="20,0,0,0">
+                <TextBlock Text="Choose product" HorizontalAlignment="Center"
+                           Foreground="DarkGray"
+                           VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
+            </Border>
+            <ComboBox Style="{DynamicResource ComboBoxFlatStyle}" Width="150"
+                Height="25"
+                Margin="50,0,0,0"
                 ItemsSource="{Binding Products, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                SelectedItem="{Binding SelectedProducts}" VerticalAlignment="Center"/>
+                SelectedItem="{Binding SelectedProduct}"/>
+
+            <Button Width="90" Height="27" Margin="30,0,0,0"
+                    Background="#15E5EF"
+                    Foreground="Black"
+                    Style="{DynamicResource RoundButton}"
+                    Content="Add"
+                    FontSize="15"
+                    FontFamily="/Fonts/#Poppins"
+                    Command="{Binding AddProduct}"/>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" Height="80" VerticalAlignment="Top"
+                    HorizontalAlignment="Left" Width="600"
+                    Margin="20,220,0,0">
+
+            <Border Background="#353340" Width="210" Height="25"
+                    CornerRadius="10" Margin="20,0,0,0">
+                <TextBlock Text="Selected products" HorizontalAlignment="Center"
+                           Foreground="DarkGray"
+                           VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
+            </Border>
+            <ComboBox Style="{DynamicResource ComboBoxFlatStyle}" Width="150"
+                Height="25"
+                Margin="50,0,0,0"
+                ItemsSource="{Binding ChosenProducts, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                SelectedItem="{Binding SelectedChosenProduct}" VerticalAlignment="Center"/>
+            <Button Width="90" Height="27" Margin="30,0,0,0"
+                    Background="#15E5EF"
+                    Foreground="Black"
+                    Style="{DynamicResource RoundButton}"
+                    Content="Delete"
+                    FontSize="15"
+                    FontFamily="/Fonts/#Poppins"
+                    Command="{Binding DeleteProduct}"/>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" Height="80" VerticalAlignment="Top"
+                    HorizontalAlignment="Left" Width="600"
+                    Margin="20,300,0,0">
+            <Button Width="250" Height="35"
+                Style="{DynamicResource RoundButton}"
+                Background="#15E5EF"
+                Foreground="Black"
+                Content="Done"
+                FontSize="20"
+                FontFamily="/Fonts/#Poppins"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Margin="230,0,0,0"
+                Command="{Binding Done}"
+            />
         </StackPanel>
     </Grid>
 </UserControl>

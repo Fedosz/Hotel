@@ -8,7 +8,6 @@ C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assist
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Theme\PasswordBoxTheme.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\DIscoveryView.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -16,7 +15,6 @@ C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assist
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog_MarkupCompile.lref
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\App.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\DIscoveryView.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.g.resources
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.GeneratedMSBuildEditorConfig.editorconfig

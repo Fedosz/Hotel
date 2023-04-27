@@ -53,7 +53,7 @@ namespace Assistance_Prog.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Assistance Prog;component/mvvm/view/discoveryview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Assistance Prog;V1.0.0.0;component/mvvm/view/discoveryview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\DIscoveryView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

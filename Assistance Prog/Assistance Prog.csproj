@@ -15,12 +15,14 @@
     <None Remove="Images\admin.png" />
     <None Remove="Images\bar.png" />
     <None Remove="Images\book.png" />
+    <None Remove="Images\corner.png" />
     <None Remove="Images\home.png" />
     <None Remove="Images\icons8-cocktail-48.png" />
     <None Remove="Images\icons8-housekeeper-48.png" />
     <None Remove="Images\icons8-manager-50.png" />
     <None Remove="Images\icons8-password-96.png" />
     <None Remove="Images\icons8-reserve-48.png" />
+    <None Remove="Images\look.png" />
     <None Remove="Images\maid.png" />
   </ItemGroup>
 
@@ -39,6 +41,12 @@
     <Resource Include="Images\book.png" />
     <Resource Include="Images\home.png" />
     <Resource Include="Images\maid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="OutputData\Maid\" />
+    <Folder Include="OutputData\Bartender\" />
+    <Folder Include="OutputData\Administrator\" />
   </ItemGroup>
 
 </Project>

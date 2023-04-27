@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\App.xaml
-7-344073379
+6-95514412
 
-16-1232588024
+14-622137801
 1941709816142
-MainWindow.xaml;MVVM\View\DIscoveryView.xaml;MVVM\View\HomeView.xaml;MVVM\View\MaidView.xaml;Theme\LoginBoxTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\PasswordBoxTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\MaidView.xaml;Theme\LoginBoxTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\PasswordBoxTheme.xaml;
 
-True
+False
 

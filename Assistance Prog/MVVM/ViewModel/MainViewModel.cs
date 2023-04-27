@@ -17,12 +17,10 @@ namespace Assistance_Prog.MVVM.ViewModel
     class MainViewModel : ObservableObject
     {
         public RelayCommand HomeViewCommand { get; set; }
-        public RelayCommand DiscoveryViewCommand { get; set; }
         public RelayCommand MaidViewCommand { get; set; }
 
-        public User user { get; set; }
+        public User user;
         public HomeViewModel HomeVM { get; set; }
-        public DiscoveryViewModel DiscoveryVM { get; set; }
         public MaidViewModel MaidVM { get; set; }
 
         private object _currentView;
@@ -148,19 +146,13 @@ namespace Assistance_Prog.MVVM.ViewModel
             MinimizeApp = new RelayCommand(o => MinimizeAppClick());
 
             HomeVM = new HomeViewModel();
-            DiscoveryVM = new DiscoveryViewModel();
-            MaidVM = new MaidViewModel();
+            MaidVM = new MaidViewModel(this);
 
             CurrentView = HomeVM;
 
             HomeViewCommand = new RelayCommand(o =>
             {
                 CurrentView = HomeVM;
-            });
-
-            DiscoveryViewCommand = new RelayCommand(o =>
-            {
-                CurrentView = DiscoveryVM;
             });
 
             MaidViewCommand = new RelayCommand(o =>
