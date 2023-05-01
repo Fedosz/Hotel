@@ -9,6 +9,7 @@ C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assist
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Theme\PasswordBoxTheme.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\MaidView.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog_MarkupCompile.cache
@@ -16,6 +17,7 @@ C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assist
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\App.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\MaidView.baml
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.g.resources
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.AssemblyInfoInputs.cache
@@ -26,5 +28,5 @@ C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assist
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.pdb
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\Assistance Prog.genruntimeconfig.cache
 C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\ref\Assistance Prog.dll
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\MaidView.g.cs
-C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\MaidView.baml
+C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\BarView.g.cs
+C:\Users\fedya\OneDrive\Рабочий стол\Курсовая\GitHotel\Assistance Prog\obj\Debug\net6.0-windows\MVVM\View\BarView.baml

@@ -1,0 +1,6 @@
+01.05.2023 22:57:19
+Room #102
+Bartender id: 102
+Ordered products:
+J7 orange  : 120
+Total price: 120

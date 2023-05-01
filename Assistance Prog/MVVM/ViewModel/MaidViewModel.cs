@@ -17,7 +17,7 @@ namespace Assistance_Prog.MVVM.ViewModel
     {
         public MainViewModel MainVM;
 
-        private IList<string> rooms = new List<string>();
+        private ObservableCollection<string> rooms = new ObservableCollection<string>();
         private IList<string> products = new List<string>();
         private ObservableCollection<string> chosenProducts = new ObservableCollection<string>();
 
@@ -68,7 +68,7 @@ namespace Assistance_Prog.MVVM.ViewModel
         }
 
 
-        public IList<string> Rooms
+        public ObservableCollection<string> Rooms
         {
             get { return rooms; }
             set { rooms = value; }
@@ -90,8 +90,7 @@ namespace Assistance_Prog.MVVM.ViewModel
         public string SelectedRoom
         {
             get { return selectedRoom; }
-            set { selectedRoom = value;
-            }
+            set { selectedRoom = value; }
         }
 
 
@@ -151,6 +150,10 @@ namespace Assistance_Prog.MVVM.ViewModel
                     Byte[] text = new UTF8Encoding(true).GetBytes(context);
                     fs.Write(text, 0, text.Length);
                 }
+                rooms.Remove(selectedRoom);
+                SelectedRoom = null;
+                OnPropertyChanged(nameof(SelectedRoom));
+
             }
             else
             {

@@ -21,6 +21,10 @@
                 <view:MaidView/>
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModel:BarViewModel}">
+                <view:BarView/>
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

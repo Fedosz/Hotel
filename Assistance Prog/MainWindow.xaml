@@ -231,7 +231,7 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command=""/>
+                             Command="{Binding BarViewCommand}"/>
 
                 <RadioButton Content="Administrator menu"
                              Height="50"

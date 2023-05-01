@@ -18,10 +18,13 @@ namespace Assistance_Prog.MVVM.ViewModel
     {
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand MaidViewCommand { get; set; }
+        public RelayCommand BarViewCommand { get; set; }
 
         public User user;
         public HomeViewModel HomeVM { get; set; }
         public MaidViewModel MaidVM { get; set; }
+
+        public BarViewModel BarVM { get; set; }
 
         private object _currentView;
         public object CurrentView
@@ -147,6 +150,7 @@ namespace Assistance_Prog.MVVM.ViewModel
 
             HomeVM = new HomeViewModel();
             MaidVM = new MaidViewModel(this);
+            BarVM = new BarViewModel(this);
 
             CurrentView = HomeVM;
 
@@ -158,6 +162,11 @@ namespace Assistance_Prog.MVVM.ViewModel
             MaidViewCommand = new RelayCommand(o =>
             {
                 CurrentView = MaidVM;
+            });
+
+            BarViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = BarVM;
             });
         }
     }

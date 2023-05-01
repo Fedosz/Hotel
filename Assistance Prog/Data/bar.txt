@@ -1,0 +1,18 @@
+﻿Coca-Cola;150
+J7 apple;120
+J7 orange;120
+Sprite;150
+Fanta;150
+Jack Daniels;400
+Bacardi;350
+Macallan 12;600
+Macallan 18;800
+Margarita;450
+Long Island;650
+Daiquri;500
+Monaco;500
+Beer;300
+Chicker sandwich;400
+Beef sandwich;450
+Club sandwich;450
+Nuts;150
