@@ -134,6 +134,9 @@ namespace Assistance_Prog.MVVM.ViewModel
                     Byte[] text = new UTF8Encoding(true).GetBytes(context);
                     fs.Write(text, 0, text.Length);
                 }
+
+                Room = null;
+                OnPropertyChanged(nameof(Room));
             }
             else
             {

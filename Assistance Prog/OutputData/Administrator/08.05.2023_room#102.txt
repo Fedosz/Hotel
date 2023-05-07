@@ -1,0 +1,8 @@
+08.05.2023 0:35:38
+Room #102
+Administator id: 103
+Client information:
+Name = Oleg
+Surname = Mongol
+Thirdname = 
+Passport number = 12313413

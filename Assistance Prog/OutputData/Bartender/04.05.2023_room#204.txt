@@ -1,0 +1,9 @@
+04.05.2023 0:54:55
+Room #204
+Bartender id: 102
+Ordered products:
+
+Long Island  : 650
+Long Island  : 650
+
+Total price: 1300

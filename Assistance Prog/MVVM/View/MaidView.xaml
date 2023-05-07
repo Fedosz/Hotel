@@ -183,7 +183,7 @@
 
             <Border Background="#353340" Width="210" Height="25"
                     CornerRadius="10" Margin="20,0,0,0">
-                <TextBlock Text="Choose room" HorizontalAlignment="Center"
+                <TextBlock Text="Выберите номер" HorizontalAlignment="Center"
                            Foreground="DarkGray"
                            VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
             </Border>
@@ -204,7 +204,7 @@
 
             <Border Background="#353340" Width="210" Height="25"
                     CornerRadius="10" Margin="20,0,0,0">
-                <TextBlock Text="Choose product" HorizontalAlignment="Center"
+                <TextBlock Text="Выберите товар" HorizontalAlignment="Center"
                            Foreground="DarkGray"
                            VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
             </Border>
@@ -218,7 +218,7 @@
                     Background="#15E5EF"
                     Foreground="Black"
                     Style="{DynamicResource RoundButton}"
-                    Content="Add"
+                    Content="Добавить"
                     FontSize="15"
                     FontFamily="/Fonts/#Poppins"
                     Command="{Binding AddProduct}"/>
@@ -231,7 +231,7 @@
 
             <Border Background="#353340" Width="210" Height="25"
                     CornerRadius="10" Margin="20,0,0,0">
-                <TextBlock Text="Selected products" HorizontalAlignment="Center"
+                <TextBlock Text="Выбранные товары" HorizontalAlignment="Center"
                            Foreground="DarkGray"
                            VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
             </Border>
@@ -244,7 +244,7 @@
                     Background="#15E5EF"
                     Foreground="Black"
                     Style="{DynamicResource RoundButton}"
-                    Content="Delete"
+                    Content="Убрать"
                     FontSize="15"
                     FontFamily="/Fonts/#Poppins"
                     Command="{Binding DeleteProduct}"/>
@@ -258,7 +258,7 @@
                 Style="{DynamicResource RoundButton}"
                 Background="#15E5EF"
                 Foreground="Black"
-                Content="Done"
+                Content="Готово"
                 FontSize="20"
                 FontFamily="/Fonts/#Poppins"
                 VerticalAlignment="Center"

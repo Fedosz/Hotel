@@ -7,9 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
-        <TextBlock Text="Discover"
+        <TextBlock Text="Важная информация"
                        Foreground="White"
                        FontSize="28"
+                       FontFamily="/Fonts/#Poppins"
                        HorizontalAlignment="Left"
                        Margin="0,0,0,20"/>
         <StackPanel Orientation="Horizontal"
@@ -51,8 +52,9 @@
                     <Setter Property="Margin" Value="15,0,0,0"/>
                 </Style>
             </StackPanel.Resources>
-            <TextBlock Text="Most Watched"
+            <TextBlock Text="Смотрите также"
                        Foreground="White"
+                       FontFamily="/Fonts/#Poppins"
                        FontSize="20"
                        HorizontalAlignment="Left"
                        Margin="0,0,0,10"/>

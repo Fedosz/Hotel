@@ -25,6 +25,10 @@
                 <view:BarView/>
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModel:AdminViewModel}">
+                <view:AdminView/>
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

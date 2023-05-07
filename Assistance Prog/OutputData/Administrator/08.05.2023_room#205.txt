@@ -1,0 +1,8 @@
+08.05.2023 0:36:50
+Room #205
+Administator id: 103
+Client information:
+Name = oleg
+Surname = asd
+Thirdname = 
+Passport number = 123

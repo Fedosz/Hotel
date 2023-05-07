@@ -185,7 +185,7 @@
             
             <Border Background="#353340" Width="210" Height="25"
                     CornerRadius="10" Margin="20,0,0,0">
-                <TextBlock Text="Choose products" HorizontalAlignment="Center"
+                <TextBlock Text="Доступные товары" HorizontalAlignment="Center"
                            Foreground="DarkGray"
                            VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
             </Border>
@@ -201,7 +201,7 @@
                     Background="#15E5EF"
                     Foreground="Black"
                     Style="{DynamicResource RoundButton}"
-                    Content="Add"
+                    Content="Добавить"
                     FontSize="15"
                     FontFamily="/Fonts/#Poppins"
                     Command="{Binding AddProduct}"/>
@@ -216,7 +216,7 @@
 
             <Border Background="#353340" Width="210" Height="25"
                     CornerRadius="10" Margin="20,0,0,0">
-                <TextBlock Text="Choose products" HorizontalAlignment="Center"
+                <TextBlock Text="Заказанные товары" HorizontalAlignment="Center"
                            Foreground="DarkGray"
                            VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
             </Border>
@@ -232,7 +232,7 @@
                     Background="#15E5EF"
                     Foreground="Black"
                     Style="{DynamicResource RoundButton}"
-                    Content="Delete"
+                    Content="Удалить"
                     FontSize="15"
                     FontFamily="/Fonts/#Poppins"
                     Command="{Binding DeleteProduct}"/>
@@ -247,7 +247,7 @@
 
             <Border Background="#353340" Width="210" Height="25"
                     CornerRadius="10" Margin="20,0,0,0">
-                <TextBlock Text="Enter room number" HorizontalAlignment="Center"
+                <TextBlock Text="Номер комнаты" HorizontalAlignment="Center"
                            Foreground="DarkGray"
                            VerticalAlignment="Center" FontSize="18" FontFamily="/Fonts/#Poppins"/>
             </Border>
@@ -268,7 +268,7 @@
                 Style="{DynamicResource RoundButton}"
                 Background="#15E5EF"
                 Foreground="Black"
-                Content="Done"
+                Content="Готово"
                 FontSize="20"
                 FontFamily="/Fonts/#Poppins"
                 VerticalAlignment="Center"

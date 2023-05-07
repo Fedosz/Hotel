@@ -24,7 +24,6 @@ namespace Assistance_Prog.MVVM.ViewModel
         static private readonly string roomsFolder = "/Data/rooms.txt";
         static private readonly string barFolder = "/Data/mini-bar.txt";
         
-
         private void loadRooms()
         {
             string[] lines;

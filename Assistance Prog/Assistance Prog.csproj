@@ -47,6 +47,7 @@
     <Folder Include="OutputData\Maid\" />
     <Folder Include="OutputData\Bartender\" />
     <Folder Include="OutputData\Administrator\" />
+    <Folder Include="OutputData\Messages\" />
   </ItemGroup>
 
 </Project>
