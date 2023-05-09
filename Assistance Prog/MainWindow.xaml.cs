@@ -32,5 +32,9 @@ namespace Assistance_Prog
             this.DragMove();
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

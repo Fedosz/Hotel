@@ -255,7 +255,7 @@
                      HorizontalAlignment="Left"
                      VerticalAlignment="Center"
                      Margin="240,0,0,0"
-                     Style="{StaticResource PasswordTextBox}">
+                     Style="{StaticResource PasswordTextBox}" TextChanged="TextBox_TextChanged">
             </TextBox>
 
             <Button Style="{DynamicResource RoundButton}" Content="Login"
