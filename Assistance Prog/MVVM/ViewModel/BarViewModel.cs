@@ -137,6 +137,7 @@ namespace Assistance_Prog.MVVM.ViewModel
 
                 Room = null;
                 OnPropertyChanged(nameof(Room));
+                ChosenProducts.Clear();
             }
             else
             {

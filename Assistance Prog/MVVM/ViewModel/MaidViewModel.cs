@@ -152,6 +152,7 @@ namespace Assistance_Prog.MVVM.ViewModel
                 rooms.Remove(selectedRoom);
                 SelectedRoom = null;
                 OnPropertyChanged(nameof(SelectedRoom));
+                ChosenProducts.Clear();
 
             }
             else
