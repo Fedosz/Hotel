@@ -1,0 +1,9 @@
+15.05.2023 18:39:15
+Room #102
+Bartender id: 102
+Ordered products:
+
+Margarita  : 450
+Coca-Cola  : 150
+
+Total price: 600

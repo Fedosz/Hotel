@@ -1,0 +1,9 @@
+15.05.2023 18:47:54
+Room #105
+Bartender id: 102
+Ordered products:
+
+Jack Daniels  : 400
+Chicker sandwich  : 400
+
+Total price: 800

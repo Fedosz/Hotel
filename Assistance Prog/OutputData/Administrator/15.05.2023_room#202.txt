@@ -1,0 +1,8 @@
+15.05.2023 18:40:53
+Room #202
+Administator id: 103
+Client information:
+Name = Фёдор
+Surname = Жуков
+Thirdname = Сергеевич
+Passport number = 12312354
